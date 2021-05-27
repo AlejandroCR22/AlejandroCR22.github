@@ -1,0 +1,79 @@
+@font-face{
+    font-family:"Ale" ;
+    src: url(../Fonts/WigendaTypewrite-Bold.ttf);
+}
+@font-face{
+    font-family: "titulos";
+    src: url(../Fonts/Selectric\ Script.ttf);
+}
+*{
+  margin: 5;
+  padding: 5;  
+}
+body{
+    background: #e6e6e6;
+    font-family: "Ale";
+    font-size:24px;
+}
+
+header, .main, footer{
+    font-family: "";
+    font-size: 24px;
+    width: 90%;
+max-width: 1000px;
+margin: 20px auto;
+}
+
+header nav{
+    background: rgb(34, 136, 65);
+    overflow: hidden;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    float: left;
+    font-family: "titulos";
+    font-size: 24px;
+}
+
+header nav ul li a{
+    padding: 10px 20px;
+    display: block;
+    color: rgb(254, 255, 254);
+    text-decoration: rgb(255, 255, 255);
+}
+
+header nav ul li a:hover{
+    background: #75ec85;
+}
+
+.main .articles{
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;   
+}
+
+.main .articles article{
+    padding: 20px;
+    background: rgb(252, 252, 252);
+    margin-bottom: 20px;
+}
+
+aside{
+    width: 30%;
+    background: rgb(34, 136, 48);
+    float: left;
+    padding: 32px;
+    box-sizing: border-box;
+}
+footer{
+    background: rgb(34, 136, 48);
+    color: #fff;
+    clear: both;
+    padding: 10px 0px;
+    font-family:"pie de pagina";
+    text-align: center;
+}
